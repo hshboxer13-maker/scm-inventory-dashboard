@@ -9,7 +9,7 @@ from sheets_client import load_inventory_df
 
 HISTORY_FILE = "weight_history.csv"
 
-st.set_page_config(page_title="재고 현황 대시보드", page_icon="📦", layout="wide")
+st.set_page_config(page_title="재고 현황 대시보드", page_icon="logo.png", layout="wide")
 
 # ---------------------------------------------------------------------------
 # design tokens (dataviz reference palette; hero card intentionally stays
