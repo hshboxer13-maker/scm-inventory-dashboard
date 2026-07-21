@@ -1,0 +1,15 @@
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# secrets — never commit
+.env
+.env.local
+scm-dash-new-*.json
+*service-account*.json
+.streamlit/secrets.toml
+
+# generated runtime data
+weight_history.csv
+*.log
